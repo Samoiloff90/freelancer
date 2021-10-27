@@ -1,0 +1,130 @@
+.about
+  &__container
+    max-width: 1216px
+    margin: 0 auto
+    padding: 0px 23px 0px 23px
+  &__wrap
+    display: flex
+  &__hh
+    margin-right: 140px
+  &__title
+    margin: 0px 0px 32px 0px
+    color: $text-color
+  &__text
+    max-width: 845px
+    line-height: 30px
+    display: 15px
+    margin: 0px 0px 50px 0px
+    position: relative
+    +reg
+    &::after
+      content: ""
+      position: absolute
+      width: 345px
+      height: 1px
+      background-color: $text-color
+      opacity: 0.3
+      top: 106%
+      left: 0
+.contacts
+  display: flex
+  flex-direction: column
+  &__wrap
+    display: flex
+  &__info
+    margin: 0px 140px 0px 0px
+  &__title
+    margin: 0px 0px 20px 0px
+  &__list
+    list-style-type: none
+    padding: 0
+    margin: 0px
+  &__item
+    margin: 0px 0px 18px 0px
+    text-decoration: none
+    color: $text-color
+  &__hh
+    display: none
+@media (max-width: 1200px)
+  .about
+    &__container
+      padding: 0px 30px 0px 30px
+    &__hh
+      margin-right: 70px
+  .contacts
+    &__info
+      margin: 0px 90px 0px 0px
+@media (max-width: 768px)
+  .about
+    &__hh
+      display: none
+  .contacts
+    &__wrap
+      align-items: center
+    &__hh
+      display: block
+    &__info
+      margin-right: 30%
+@media (max-width: 605px)
+  .about
+    &__text
+      &::after
+        display: none
+  .contacts
+    padding: 30px
+    box-shadow: 0px 1px 11px 3px rgba(45,45,66,0.6)
+    &__wrap
+      justify-content: space-between
+      flex-wrap: wrap
+    &__info
+      margin: 0
+@media (max-width: 448px)
+  .about
+    &__title
+      display: none
+    &__text
+      display: none
+  .contacts
+    &__title
+      display: flex
+      justify-content: center
+    &__wrap
+      justify-content: center
+    &__list
+      text-align: center
+    &__info
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__hh
+      display: flex
+      justify-content: center
+      &-img
+        margin: 0 auto
+@media (max-width: 420px)
+  .about
+    padding-bottom: 0
+    padding-top: 0
+    &__container
+      padding: 0
+  .work
+    padding-bottom: 50px
+    padding-top: 50px
+// @media(max-width: 400px)
+//   .about
+//     padding: 0
+//   .contacts
+//     padding-top: 50px
+//     padding-bottom: 50px
+  
+
+
+
+      
+
+
+
+
+      
+
+

@@ -1,0 +1,106 @@
+*
+  box-sizing: border-box
+
+body
+  +reg
+.container
+  max-width: 1170px
+  margin: 0 auto
+.section
+  padding: 97px 0px
+// social
+.social
+  &__link
+    text-decoration: none
+    color: $text-color
+    font-size: 20px
+    margin: 0px 8px 0px 0px
+// Up
+.up
+  display: none
+  position: fixed
+  bottom: 30px
+  right: 30px
+  text-decoration: none
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  background-color: $text-color
+  border: 1px solid $hero-color
+  color: $hero-color
+  font-size: 30px
+  text-align: center
+  padding-top: 5px
+  cursor: pointer
+  &__img
+    width: 100%
+    margin: auto
+
+// button
+.button
+  min-width: 225px
+  height: 53px
+  background-color: $button
+  border: 1px solid $text-color
+  border-radius: 4px
+  margin: 0
+  padding: 13px 0px
+  font-size: 18px
+  text-decoration: none
+  color: $text-color
+  text-align: center
+  +bold
+  &:hover
+    box-shadow: 0 0 75px $button-shadow
+    transition: all 0.6s ease
+    cursor: pointer
+.fa-download
+  margin-right: 7px
+// slider
+.slider
+  display: flex
+  &__image
+    margin: auto
+  &__item
+    outline: none
+    &:hover
+    border: none
+    outline: none
+.arrows
+  margin-top: 40px
+  display: flex
+  justify-content: center
+  font-size: 25px
+  cursor: pointer
+  opacity: 0.5
+  &__left
+    margin-right: 40px
+@media (max-width: 768px)
+  .container
+    padding: 0px 30px 0px 30px
+  .button
+    display: none
+  .section
+    padding: 50px 0px
+@media (max-width: 600px)
+  .slider
+    &__image
+      max-width: 90%
+@media (max-width: 448px)
+  .social
+    &__link
+      text-decoration: none
+      color: $text-color
+      font-size: 25px
+      margin: 0px 15px 0px 0px
+@media (max-width: 330px)
+  .social
+    &__link
+      font-size: 31px
+      margin: 0px 15px 0px 0px
+      // &-vk
+      //   display: none
+      &-face
+        display: none
+      &-inst
+        display: none
