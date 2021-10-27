@@ -1,8 +1,5 @@
 # Hi there 👋, I am Samoilov Eugene
 
-<!-- ![Krushnat's github stats](https://github-readme-stats.vercel.app/api?username=Samoiloff90&show_icons=true) -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Samoiloff90&layout=compact)
-
 
 ### Web development
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -26,4 +23,5 @@
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-
+<!-- ![Krushnat's github stats](https://github-readme-stats.vercel.app/api?username=Samoiloff90&show_icons=true) -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Samoiloff90&layout=compact)
