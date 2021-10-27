@@ -1,6 +1,6 @@
 # Hi there 👋, I am Samoilov Eugene
 
-[Write me in Telegram](http://t-do.ru/Samoiloff90 "Telegram channel")
+[Write me in Telegram](http://t.me/Samoiloff90)
 
 ### Web development
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
