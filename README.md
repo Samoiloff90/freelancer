@@ -1,6 +1,6 @@
 # Hi there 👋, I am Samoilov Eugene
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Samoiloff90&theme=monokai&margin-w=15&margin-h=15&&no-frame=true&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+![Krushnat's github stats](https://github-readme-stats.vercel.app/api?username=Samoiloff90&show_icons=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Samoiloff90&layout=compact)
 
 
 ### Web development
