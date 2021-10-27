@@ -1,5 +1,6 @@
 # Hi there 👋, I am Samoilov Eugene
 
+[@aspia_ru](http://t-do.ru/aspia_ru "Telegram channel")
 
 ### Web development
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
